@@ -1,96 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .contenairNavBar {
-    height: 57px;
-    background-color: #00205b;
-    color: white;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+  height: 57px;
+  background-color: #00205b;
+  color: white;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .contenairNavBar2 {
-    justify-content:space-between;
+  height: 57px;
+  background-color: #00205b;
+  color: white;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
 }
 
 .contenairNavBar a {
-    margin: 0 20px;
-    color: white;
-    text-decoration: none;
-}
-
-.logo {
-    width: 96px;
-    height: 18px;
-}
-
-.loupe {
-    padding-top: 5%;
-}
-
-.Footer-sub{
-    justify-content:space-between;
-    align-items: center;
-}
-.LogoAirbus {
-    width: 86px;
-    height: 18px;
-}
-
-.contenairNavBar2 {
-    height: 57px;
-    background-color: #00205b;
-    color: white;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
 }
 
 .contenairNavBar2 a {
-    margin: 0 20px;
-    color: white;
-    text-decoration: none;
+  padding: 1.125rem 0;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  align-items: center !important;
+}
+
+.logo {
+  width: 96px;
+  height: 18px;
+}
+
+.loupe {
+  padding-top: 5%;
+}
+
+.LogoAirbus {
+  width: 86px;
+  height: 18px;
 }
 
 .video {
-    
-    display: inline-block;
-    height: 100%;
-    width: 100%;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
 
 .Highlights {
-    background-image: url('./assets/2.jpg');
-    background-size: 100% 100%;
-    position: absolute;
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-   margin-left: 5%;
-   margin-right: 5%;
+  background-image: url("./assets/2.jpg");
+  background-size: 100% 100%;
+  position: absolute;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-h1{
-color: var(--primary-color-3,#002d80);
-margin-left: 5%;
-margin-top: 0;
-margin-bottom: 0.5rem;
-font-weight: 500;
-line-height: 1.2;
-font-size: calc(1.375rem + 1.5vw);
+h1 {
+  color: var(--primary-color-3, #002d80);
+  margin-left: 5%;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: calc(1.375rem + 1.5vw);
 }
 
 .article {
-
 }
 
 .purpose {
+}
 
+.Footer-sub {
+    display: flex!important;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  margin-left: 1.5625rem;
+  align-items: center !important;
 }
