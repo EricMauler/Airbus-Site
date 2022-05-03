@@ -38,4 +38,34 @@ body {
     justify-content:space-between;
     align-items: center;
 }
+.LogoAirbus {
+    width: 86px;
+    height: 18px;
+}
 
+.contenairNavBar2 {
+    height: 57px;
+    background-color: #00205b;
+    color: white;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.contenairNavBar2 a {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.video {
+    
+    display: flex;
+}
+
+.articles {
+display: block;
+padding-left: 1rem;
+padding-right: 1rem;
+}
