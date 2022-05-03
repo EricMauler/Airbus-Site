@@ -15,6 +15,11 @@ body {
     justify-content:space-between;
 }
 
+.contenairNavBar2 {
+
+    justify-content:space-between;
+}
+
 .contenairNavBar a {
     margin: 0 20px;
     color: white;
@@ -29,3 +34,9 @@ body {
 .loupe {
     padding-top: 5%;
 }
+
+.Footer-sub{
+    justify-content:space-between;
+    align-items: center;
+}
+
