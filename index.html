@@ -41,31 +41,76 @@
         </div>
       </div>
     </nav>
+    <!-- Video -->
     <div class="video-area">
-      <div
-      class="center-a flex flex-col px-8 w-full lg:max-w-2xl h-full justify-center items-center z-20"
-    >
-      <h2
-        class="text-white text-xl md:text-4xl lg:text-6xl text-center mb-12"
-      >
-        Pioneering sustainable aerospace for a safe and united world
-      </h2>
-      <a
-        href=""
-        class="bg-[#002d80] hover:bg-[#002466] transition-colors duration-200 text-white font-semibold w-36 text-center py-3 rounded-sm"
-      >
-        Discover more
-      </a>
-    </div>
-      <video class="video" autoplay controls>
-        <source src="https://mediaassets.airbus.com/medias/domain38/media101851/555343-axnfdce994-480.mp4" type="video/mp4" media="all and (max-width: 480px)" autoplay loop>
+      <div class="video-controls">
+        <svg height="24" viewBox="0 0 48 48" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 0h48v48H0z" fill="none"></path>
+          <path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-2 28h-4V16h4v16zm8 0h-4V16h4v16z" fill="white"></path>
+        </svg>
+        Pause
+      </div>
+      <div class="video-area__heading">
+        <h2 class="video-area__titles">Pioneering sustainable aerospace for a safe and united world</h2>
+        <a class="video-area__link" href="#">Discover more</a>
+      </div>
+      <!-- Selon les navigateurs, la méthode muted est obligatoire pour la lecture automatique -->
+      <video class="video" autoplay loop muted>
+        <source src="https://mediaassets.airbus.com/medias/domain38/media101851/555343-axnfdce994-480.mp4" type="video/mp4" media="all and (max-width: 480px)">
       </video>
     </div>
-    <nav class="page-centrale">
-      <article role="article">
+
+    <main class="main">
+
+      <!-- Highlights -->
+      <h1 class="main__title">Highlights</h1>
+      <hr class="main__separator">
+      <div class="wrapper__teaser">
+        <div class="wrapper__teaser__box1">
+          <div class="overlay"></div>
+          <div class="teaser__heading__1">
+            <p class="teaser__title__1">Q1 2022 Results Release</p>
+            <a class="teaser__1__btn" href="">Read the Press Release</a>
+            <a class="teaser__1__link" href="">Further document</a>
+          </div>
+          <img src="https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_1440x1440/public/2022-02/FY2021%20cover_0.jpg?itok=3JMh_a25" alt="Q1 2022 Results">
+        </div>
+        <div class="wrapper__teaser__box2">
+          <div class="overlay"></div>
+          <div class="teaser__heading__2">
+            <p class="teaser__title__2">Invest in our planet</p>
+            <p class="teaser__subtitle__1">How does Airbus invest in our planet?</p>
+            <a class="teaser__2__link" href="#">Discover more</a>
+          </div>
+          <img src="https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_1440x1440/public/2022-04/Grass.jpg?itok=iZhCNu1x" alt="Invest in our planet">
+        </div>
+      </div>
+
+      <!-- Our purpose in action -->
+      <h1 class="second__title">Our purpose in action</h1>
+      <hr class="main__separator">
+
+      <div class="wrapper__news__1">
+        <div class="wrapper__news__bloc__1">
+          <h5>Earth Day 2022: Investing in our planet with the help of helicopters</h5>
+          <p class="wrapper__news__bloc__1__subtitle">Products & Services</p>
+          <p>For many years, operators of Airbus helicopters have been working behind the scenes to play their part, sometimes in ways that pass unnoticed to the untrained eye. That may mean servicing the alternative energy industry, redressing the wrongs done to natural habitats, enabling cleaner construction, deterring poachers, or simply conducting research.</p>
+          <a class="teaser__1__btn" href="#">Read more</a>
+          <a href="#">Discover more about our products and services</a>
+        </div>
+        <div class="wrapper__news__bloc__2">
+          <img src="https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_1440x1440/public/2021-09/H145%20Copyright%20HTM.jpg?itok=nqc1M5yC" alt="Earth Day 2022">
+        </div>
+      </div>
+
+    </main>
+
+
+    <!-- <nav class="page-centrale">
+      <article role="article"> -->
         
         <!--Ici Highlights jusqu'à Join The Airbus Team-->
-        <h1>Highlights</h1>
+        <!-- <h1>Highlights</h1>
         <div class="Highlights ligne-h1">Highlights</div>
         
         <div class="purpose">Our purpose in action <img src="./assets/1.jpg"  alt=""><img src="./assets/3.jpg" alt=""><img src="./assets/4.jpg" alt=""></div>
@@ -82,8 +127,8 @@
         <div class="AirbusAround">Airbus around the World</div>
         <div class="OtherWebSites">Other webstites</div>
       </div>
-    </nav>
-    <nav class="contenairNavBar2">
+    </nav> -->
+    <!-- <nav class="contenairNavBar2">
       <div class="Footer-sub">
         <a class="LogoAirbus" href="">
             <img src="./assets/logo.svg" alt="logo" /></a>
@@ -97,6 +142,6 @@
         <a class="airbus2022" href="">Airbus 2022</a>
         <a class="link" href="">Linkdn Twitter Facebook Instagram Youtube</a>
       </div>
-    </nav>
+    </nav> -->
   </body>
 </html>
