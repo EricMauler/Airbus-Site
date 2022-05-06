@@ -60,6 +60,12 @@ body {
   width: 100%;
 }
 
+.img-size8 {
+  display: inline-block;
+  height: 330px;
+  width: 542px;
+}
+
 .Highlights {
   background-image: url("./assets/2.jpg");
   background-size: 100% 100%;
@@ -71,6 +77,8 @@ body {
   margin-right: 5%;
 }
 
+
+
 h1 {
   color: var(--primary-color-3, #002d80);
   margin-left: 5%;
@@ -81,6 +89,10 @@ h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
 
+.video-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
 
 .Footer-sub {
     display: flex!important;
